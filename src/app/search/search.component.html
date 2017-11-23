@@ -1,0 +1,4 @@
+<form>
+  <input [value]="city" (input)="city = $event.target.value">
+  <button (click)="getWeather(city); $event.preventDefault()">Submit</button>
+</form>
